@@ -1,0 +1,8 @@
+{
+  "name": "context-compress",
+  "description": "Compresses large Read/Grep/Glob outputs to save context window tokens",
+  "author": {
+    "name": "jhollander",
+    "email": "justin.hollander@gmail.com"
+  }
+}
