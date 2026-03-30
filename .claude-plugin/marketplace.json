@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "context-compress",
+  "description": "Token optimization plugins for Claude Code",
+  "owner": {
+    "name": "jhollander",
+    "email": "justin.hollander@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "context-compress",
+      "description": "Compresses large Read/Grep/Glob outputs to save context window tokens",
+      "author": {
+        "name": "jhollander",
+        "email": "justin.hollander@gmail.com"
+      },
+      "source": "./plugins/context-compress",
+      "category": "productivity"
+    }
+  ]
+}
